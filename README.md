@@ -9,12 +9,12 @@ This repo contains my **completed exercises, programming tasks, and small projec
 
 | Folder / File | Description |
 |----------------|-------------|
-| `beispiel_4/` | Example 4 – Introduction to Labels, ComboBoxes and LineEdits |
 | `UE1_Zoom/` | Exercise 1 – Changing widget-size with PyQt5 |
 | `UE2_Converter/` | Exercise 2 – Miles ↔ Kilometer converter with PyQt5 |
+| `beispiel_4/` | Example 4 – Introduction to Labels, ComboBoxes and LineEdits |
+| `README.md` | This file |
 | `test.py` | Sandbox File – can be ignored |
 | `widget.ui` | Sandbox File – can be ignorerd |
-| `README.md` | This file |
 
 ---
 
