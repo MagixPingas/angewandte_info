@@ -25,11 +25,11 @@ class MainWindow(QMainWindow):
         value = self.lineEdit.text()
         unit = self.comboBox.itemText((index+1) % 2)
 
-        print((index+1) % 2)
-        print('unit = ', unit)
+        print('Input:', value, self.comboBox.itemText(index))
 
         try:
             conv_value = float(value)
+
 
             if index == 1:
                 conv_value *= 1.609344
@@ -37,10 +37,10 @@ class MainWindow(QMainWindow):
             elif index == 0:
                 conv_value /= 1.609344
 
-            print(str(conv_value) + ' ' + unit + '\n')
+            print('Output:', str(conv_value) + ' ' + unit + '\n')
             self.label.setText(str(conv_value) + ' ' + unit)
 
-        except:
+        except ValueError:
             print("Rechnung nicht möglich!")
             self.label.setText("Rechnung nicht möglich!")
 
