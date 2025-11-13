@@ -19,7 +19,6 @@ class MainWindow(QMainWindow):
         self.show()
 
 
-
     def textSetting(self):
         index = self.comboBox.currentIndex()
         value = self.lineEdit.text()
