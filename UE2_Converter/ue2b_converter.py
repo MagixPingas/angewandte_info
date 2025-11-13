@@ -56,7 +56,7 @@ class MainWindow(QMainWindow):
             unit = ''
 
             if index == 'rb_km':
-                conv_value *= 1.609344
+                conv_value /= 1.609344
                 self.comboBox.blockSignals(True)
                 self.comboBox.setCurrentIndex(0)
                 self.comboBox.blockSignals(False)
@@ -64,7 +64,7 @@ class MainWindow(QMainWindow):
 
 
             elif index == 'rb_mi':
-                conv_value /= 1.609344
+                conv_value *= 1.609344
                 self.comboBox.blockSignals(True)
                 self.comboBox.setCurrentIndex(1)
                 self.comboBox.blockSignals(False)
@@ -98,8 +98,9 @@ class MainWindow(QMainWindow):
         self.label.setText("Rechnung nicht möglich!")
 
     def outputText(self, conv_value, unit):
-        print('Output:', str(conv_value), unit, '\n')
-        self.label.setText(str(conv_value) + ' ' + unit)
+        val = round(conv_value, 3)
+        print('Output:', str(val), unit, '\n')
+        self.label.setText(str(val) + ' ' + unit)
 
 app = QApplication([])
 window = MainWindow()
