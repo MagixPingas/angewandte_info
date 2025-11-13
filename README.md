@@ -3,6 +3,10 @@
 Welcome to my repository for the **Applied Computer Science (Angewandte Informatik)** course during the **Winter Semester 2025/26**.  
 This repo contains my **completed exercises, programming tasks, and small projects** created throughout the semester.
 
+![Top Language](https://img.shields.io/github/languages/top/MagixPingas/Angewandte-Informatik-WS-25-26?style=flat&logo=python&color=0080ff)
+![Last Commit](https://img.shields.io/github/last-commit/MagixPingas/Angewandte-Informatik-WS-25-26?style=flat&logo=git&logoColor=white&color=0080ff)
+![Total Commits](https://img.shields.io/github/commit-activity/t/MagixPingas/Angewandte-Informatik-WS-25-26?style=flat&color=0080ff)
+
 ---
 
 ## 🧩 Repository Overview
@@ -21,11 +25,13 @@ This repo contains my **completed exercises, programming tasks, and small projec
 
 ## 🛠️ Technologies & Tools
 
-- **Language:** Python 3.x  
-- **Frameworks / Libraries:** PyQt5, NumPy  
-- **IDE:** PyCharm 2024.3.4
-- **Tools:** Qt Designer 5.11.1 
-- **Version Control:** Git + GitHub  
+- **Language:** Python 3.x ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)
+- **Frameworks / Libraries:** PyQt5 ![PyQt5](https://img.shields.io/badge/PyQt5-41CD52?style=for-the-badge&logo=qt&logoColor=white), NumPy ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+- **IDE:** PyCharm 2024.3.4 ![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white)
+- **Tools:** Qt Designer 5.11.1 ![QtDesigner](https://img.shields.io/badge/Qt_Designer-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+- **Version Control:** Git ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) , GitHub ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+
 
 ---
 
@@ -50,4 +56,4 @@ Please **do not copy** solutions for submission — use them as study material o
 
 **Marco Gernet**  
 📚 *BVG3_6018017_Angewandte Informatik*  
-📧 marco.gernet@study.thws.de
+📧 [marco.gernet@study.thws.de](mailto:marco.gernet@study.thws.de) 
