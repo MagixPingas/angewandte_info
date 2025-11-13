@@ -39,7 +39,7 @@ class MainWindow(QMainWindow):
         if rb.isChecked():
             value = self.lineEdit.text()
             index = rb.objectName()
-            unit = rb.text()
+
 
             self.calc(value, index)
 
@@ -90,10 +90,34 @@ class MainWindow(QMainWindow):
             self.outputText(conv_value, unit)
 
         except ValueError:
-            self.errorText()
-
+            if value == '' or value == '.' or value == ',':
+                self.errorText()
+                return
+            else:
+                adder = 0
+                for i in value:
+                    if i.isnumeric():
+                        continue
+                    elif i == ',':
+                        adder += 1
+                        continue
+                    elif adder == 2:
+                        self.errorText()
+                        break
+                    else:
+                        self.errorText()
+                        return
+                value = value.replace(',', '.', 1)
+                self.calc(value, index)
 
     def errorText(self):
+        self.lineEdit.blockSignals(True)
+        self.lineEdit.clear()
+        self.lineEdit.blockSignals(False)
+        msg = QMessageBox()
+        msg.setStandardButtons(QMessageBox.Ok)
+        msg.setText("Bitte Dezimalzahl eingeben")
+        msg.exec_()
         print("Rechnung nicht möglich! \n")
         self.label.setText("Rechnung nicht möglich!")
 
