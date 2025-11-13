@@ -7,14 +7,15 @@ This repo contains my **completed exercises, programming tasks, and small projec
 
 ## 🧩 Repository Overview
 
-| Folder / File | Description |
-|----------------|-------------|
-| `UE1_Zoom/` | Exercise 1 – Changing widget-size with PyQt5 |
-| `UE2_Converter/` | Exercise 2 – Miles ↔ Kilometer converter with PyQt5 |
-| `beispiel_4/` | Example 4 – Introduction to Labels, ComboBoxes and LineEdits |
-| `README.md` | This file |
-| `test.py` | Sandbox File – can be ignored |
-| `widget.ui` | Sandbox File – can be ignorerd |
+| Folder / File    | Description                                                  |
+|------------------|--------------------------------------------------------------|
+| `UE1_Zoom/`      | Exercise 1 – Changing widget-size with PyQt5                 |
+| `UE2_Converter/` | Exercise 2 – Miles ↔ Kilometer converter with PyQt5          |
+| `beispiel_4/`    | Example 4 – Introduction to Labels, ComboBoxes and LineEdits |
+| `beispiel_5/`    | Example 5 – Introduction to RadioButtons                     |
+| `README.md`      | This file                                                    |
+| `test.py`        | Sandbox File – can be ignored                                |
+| `widget.ui`      | Sandbox File – can be ignored                                |
 
 ---
 
